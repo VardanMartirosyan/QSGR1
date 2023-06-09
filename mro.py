@@ -16,3 +16,4 @@ class D(C,A):
 d = D()
 d.foo()
 print(D.__mro__)
+print(d.__dict__)
